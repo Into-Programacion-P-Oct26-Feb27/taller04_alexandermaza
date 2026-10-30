@@ -42,14 +42,15 @@ public class Problema01 {
         gastoMensual = gasto1 + gasto2 + gasto3;
         
         System.out.printf("CONTROL DE GASTOS DE PROYECTOS\nProyectos:\n"
-                + "-------------------------------\n1. Desarrollo de software: "
-                + "$%.2f\n2. Inteligencia artificial: $%.2f\n"
-                + "3. Seguridad informática: $%.2f\n"
-                + "-------------------------------\nGASTO MENSUAL TOTAL: "
-                + "$%s\n",
-                gasto1,
-                gasto2,
-                gasto3,
+                + "-------------------------------\n"
+                + "1. %s: $%.2f\n"
+                + "2. %s: $%.2f\n"
+                + "3. %s: $%.2f\n"
+                + "-------------------------------\nGASTO MENSUAL TOTAl: "
+                + "$%.2f\n",
+                proyecto1,gasto1,
+                proyecto2,gasto2,
+                proyecto3,gasto3,
                 gastoMensual);
         
        
